@@ -1,0 +1,79 @@
+.GIT_header {
+  margin-top: 25%;
+  margin-left: 35%;
+  font-weight: 700;
+  text-align: start;
+  font-size: 60px;
+  font-family: Georgia, serif;
+  color: white;
+
+  
+}
+.container_border {
+ 
+ background-color:#232a2e ;
+ width: 100%;
+ height: 100%;
+ 
+ position: fixed; 
+  top: 0; 
+  left: 0; 
+  
+  background-repeat: no-repeat;
+  background-size: 100%;
+  
+  z-index: -1;
+}
+
+
+.contact_form{
+  display:grid;
+  margin: 25px 85px 75px 100px;
+ 
+
+ 
+
+}
+.form-control{
+  height: 50px;
+  width: 400px;
+  
+  
+  z-index: 2;
+  caret-color: red;
+  margin: 25px 0px 5px 25px;
+  margin-left: 33%;
+  
+}
+@media screen and (max-width: 700px){
+  .container_border{
+      width: 400px;
+      height: 800px;
+      
+      
+  }
+}
+@media only screen and (max-width: 1024px){
+  .GIT_header{
+      font-size: 70px!important;
+      margin-left: 15%;
+  }
+}
+@media only screen and (max-width: 1024px){
+  .contact_form{
+      font-size: 20px!important;
+      margin: 25px 85px 75px 50px;
+      
+  }     
+}
+@media only screen and (max-width: 1024px){
+  .form-control{
+      font-size: 30px!important;
+      height: 50px;
+      width: 300px;
+      margin: auto;
+      margin-bottom: 15px;
+      z-index: 2;
+      
+  }
+}

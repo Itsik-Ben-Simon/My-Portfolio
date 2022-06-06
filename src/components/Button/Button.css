@@ -1,0 +1,63 @@
+.About {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  text-align: center;
+  font-size: 16px;
+  align-items: center;
+  display: "flex";
+  position: absolute;
+  top: 50%;
+  left: -5%;
+  width: 100%;
+  color: #000000;
+  text-decoration: none;
+}
+
+.Skills{
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  text-align: center;
+  font-size: 16px;
+  align-items: center;
+  display: "flex";
+  position: absolute;
+  top: 54%;
+  left: -5%;
+  width: 100%;
+  color: #000000;
+  text-decoration: none;
+}
+
+.Projects {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  text-align: center;
+  font-size: 16px;
+  align-items: center;
+  display: "flex";
+  position: absolute;
+  top: 58%;
+  left: -5%;
+  width: 100%;
+  color: #000000;
+  text-decoration: none;
+}
+
+.GetInTouch {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  text-align: center;
+  font-size: 16px;
+  align-items: center;
+  display: "flex";
+  position: absolute;
+  top: 62%;
+  left: -5%;
+  width: 100%;
+  color: #000000;
+  text-decoration: none;
+}

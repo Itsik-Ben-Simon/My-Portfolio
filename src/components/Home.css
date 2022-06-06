@@ -1,0 +1,148 @@
+.home__header {
+  font-style: oblique;
+  margin-top: 10%;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 40px;
+  font-family: montserrat, serif;
+  margin-left: 25%;
+  z-index: 2;
+}
+@media only screen and (max-width: 768px){
+  .home__header{
+  font-size: 40px;
+  margin-top: 2%;
+  z-index: 2;
+  margin-left: 15%;
+
+ } 
+}
+.Home_name {
+  margin-top: 20px;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 40px;
+  font-family: Georgia, serif;
+  margin-left: 15%;
+  z-index: 2;
+}
+@media only screen and (max-width: 768px){
+  .Home_name{
+  font-size: 40px;
+  margin-top: 20px;
+  margin-left: 15%;
+
+ } 
+}
+
+.Home_job {
+  margin-top: 20px;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 40px;
+  font-family: Georgia, serif;
+  margin-left: 13%;
+  z-index: 2;
+}
+@media only screen and (max-width: 768px){
+  .Home_job{
+  font-size: 40px;
+  margin-top: 20px;
+  margin-left: 15%;
+ } 
+}
+
+.git_icon {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  margin-right: -50%;
+  z-index: 2;
+}
+@media only screen and (max-width: 768px){
+  .git_icon{
+    position: fixed;
+    bottom: 40%;
+    left: 40%;
+    margin-right: -50%;
+    z-index: -1;
+
+  }
+}
+
+.linkedin_icon {
+  position: fixed;
+  bottom: 0;
+  left: 47%;
+  margin-right: -50%;
+  z-index: 2;
+}
+@media only screen and (max-width: 768px){
+  .linkedin_icon{
+    position: fixed;
+    bottom: 40%;
+    left: 30%;
+    margin-right: -50%;
+    z-index: -1;
+
+  }
+}
+
+#my_photo{
+ max-width: 500px;
+ max-height: 500px;
+ margin-top: -20%;
+ margin-left: 65%;
+ z-index: 2;
+ position: fixed;
+ background-repeat: no-repeat;
+ border-radius: 50%;
+
+ 
+}
+.home-bg{
+ z-index: -1;
+ top: 0px;
+ left: 0px;
+ 
+ width:1350px ;
+ height: 760px;
+ object-fit: cover;
+ background-repeat: no-repeat;
+ position: fixed;
+
+}
+@media only screen and (max-width: 768px){
+  .home-bg{
+     
+   display: none;
+    z-index: -1;
+  
+ }
+}
+.backimage{
+    width: 300px;
+    height: 50px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    
+  }
+  @media only screen and (max-width: 768px){
+    .backimage{
+      display: none;
+   }
+ }
+
+@media only screen and (max-width: 768px){
+  #my_photo{
+  border-radius: 50%;
+  margin-left: 15%;
+  margin-top: 3%;
+  z-index: -1;
+  position: fixed;
+  }
+}

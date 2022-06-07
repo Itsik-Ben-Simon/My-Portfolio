@@ -57,6 +57,7 @@
   .GIT_header{
       font-size: 70px!important;
       margin-left: 15%;
+      margin-top: 30%;
   }
 }
 @media only screen and (max-width: 1024px){

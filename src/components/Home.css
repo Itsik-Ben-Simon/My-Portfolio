@@ -62,8 +62,8 @@
 @media only screen and (max-width: 768px){
   .git_icon{
     position: absolute;
-    bottom: 20%;
-    left: 55%;
+    bottom: 15%;
+    left: 52%;
     margin-right: -50%;
     z-index: -1;
 
@@ -80,8 +80,8 @@
 @media only screen and (max-width: 768px){
   .linkedin_icon{
     position: absolute;
-    bottom: 20%;
-    left: 43%;
+    bottom: 15%;
+    left: 40%;
     margin-right: -50%;
     z-index: -1;
 

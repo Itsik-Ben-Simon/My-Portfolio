@@ -140,7 +140,7 @@
 @media only screen and (max-width: 768px){
   #my_photo{
   border-radius: 50%;
-  margin-left: 15%;
+  left: 40%;
   margin-top: 3%;
   z-index: -1;
   position: fixed;
